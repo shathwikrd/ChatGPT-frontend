@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-family: Roboto, sans-serif;
+  color: white;
+}
+
+.left {
+  width: 20vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right {
+  width: 80vw;
+  height: 100vh;
+  background-color: #222222;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left-top {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.elmnt {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.hover:hover {
+  background-color: #242424;
+}
+
+.elmnt-txt {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.left-mid {
+  padding: 10px;
+}
+
+.left-bottom {
+  padding: 10px;
+}
+
+.right-top {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.right-top-left {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  margin-top: 0px;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.right-top-left:hover {
+  background-color: #323232;
+}
+
+.right-top-right {
+  margin: 10px;
+}
+
+.right-mid {
+  text-align: center;
+}
+
+.input {
+  background-color: #323232;
+  height: 50px;
+  width: 80%;
+  margin: auto;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+input {
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  color: aliceblue;
+}
+
+.input-bottom {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  border-radius: 50px;
+  border-width: 0.1px;
+  border-style: solid;
+  border-color: #4f4f4f;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #6c6c6c;
+  font-size: 14px;
+}
+
+.more {
+  height: 45px;
+  width: 50px;
+}
+
+.btn:hover {
+  background-color: #4f4f4f;
+  color: white;
+}
+
+.btn p {
+  margin-left: 5px;
+}
+
+.input-bottom-left {
+  display: flex;
+}
+
+.input-bottom-left-a {
+  margin-right: 10px;
+}
+
+.right-bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.right-bottom p {
+  font-size: 12px;
+  color: #5e5e5e;
+}
